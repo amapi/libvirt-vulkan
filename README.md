@@ -1,5 +1,7 @@
 # Ubuntu VM with Vulkan/Venus 3D Acceleration
 
+![Vulkan in Action](libvirt-vulkan.png)
+
 This repository documents the procedure to create a high-performance Ubuntu virtual machine on an Ubuntu host using **Libvirt**, **QEMU/KVM**, and **SDL**.
 
 The primary goal of this setup is to enable **3D acceleration (Vulkan/OpenGL)** within the guest VM using the **Virtio-GPU Venus** protocol, while maintaining a refresh rate equivalent to the host via SDL display output.
